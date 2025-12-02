@@ -895,7 +895,8 @@ main {
   box-shadow: 0 0 20px rgba(76, 239, 243, 0.7);
 }
 
-.feature-item:hover .item-img img {
+.feature-item:hover .item-img img,
+.feature-item:hover .item-head {
   animation: pulse 1.5s ease-in-out infinite;
 }
 
@@ -1365,6 +1366,16 @@ main {
   .benefit-item {
     padding: 1rem;
     max-width: 320px;
+  }
+  .hero-img {
+    width: 140%;
+    left: 0%;
+    max-width: unset;
+  }
+  .hero-img-bubbles {
+    left: 35%;
+    width: 120%;
+    max-width: unset;
   }
 }
 

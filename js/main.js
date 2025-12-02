@@ -591,7 +591,7 @@ jQuery(document).ready(function ($) {
         initSmoothReveals();
         initInteractiveIcons();
         initAnimatedTitles();
-        initCounterAnimation();
+        // initCounterAnimation();
     }, 500);
 
 });
