@@ -115,11 +115,11 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
 }
 
-input[type=date] {
+input[type="date"] {
   position: relative;
 }
 
-input[type=date]::-webkit-calendar-picker-indicator {
+input[type="date"]::-webkit-calendar-picker-indicator {
   position: absolute;
   inset: 0;
   display: block;
@@ -145,7 +145,7 @@ select {
   padding-inline-end: 50px;
 }
 
-html[dir=rtl] select {
+html[dir="rtl"] select {
   background-position: left 22px center;
 }
 
@@ -163,7 +163,7 @@ a:focus {
   color: inherit;
 }
 
-[role=button] {
+[role="button"] {
   cursor: pointer;
 }
 
@@ -282,8 +282,6 @@ html {
   font-display: swap;
 }
 
-
-
 body {
   font-family: "NeoSansArabic";
   font-weight: 400;
@@ -320,10 +318,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 body {
-  background: linear-gradient(315deg,
-      #0b4796 0%,
-      #03203f 50%,
-      #021124 100%);
+  background: linear-gradient(315deg, #0b4796 0%, #03203f 50%, #021124 100%);
   background-size: 200% 200%;
   position: relative;
   overflow-x: hidden;
@@ -332,7 +327,6 @@ body {
 }
 
 @keyframes gradientShift {
-
   0%,
   100% {
     background-position: 0% 50%;
@@ -445,7 +439,7 @@ body {
   .section-title {
     font-size: 1.875rem;
     padding: 0.625rem 1.875rem;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     margin-bottom: 2.5rem;
   }
 }
@@ -478,7 +472,6 @@ body {
 }
 
 @keyframes twinkle {
-
   0%,
   100% {
     opacity: 0.25;
@@ -598,7 +591,6 @@ main {
 }
 
 @keyframes lightingPulse {
-
   0%,
   100% {
     opacity: 0.3;
@@ -620,7 +612,6 @@ main {
 }
 
 @keyframes floatSlow {
-
   0%,
   100% {
     transform: translate(-50%, -50%) translateY(0px);
@@ -632,7 +623,6 @@ main {
 }
 
 @keyframes floatMedium {
-
   0%,
   100% {
     transform: translate(-50%, -50%) translateY(0px);
@@ -731,7 +721,6 @@ main {
 }
 
 @media (max-width: 480px) {
-
   /* .main-img .img-holder {
     max-width: 280px;
   } */
@@ -1375,6 +1364,7 @@ main {
 @media (max-width: 480px) {
   .benefit-item {
     padding: 1rem;
+    max-width: 320px;
   }
 }
 
@@ -1382,10 +1372,7 @@ main {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg,
-      #121214 0%,
-      #151429 40%,
-      #171427 100%);
+  background: linear-gradient(135deg, #121214 0%, #151429 40%, #171427 100%);
   opacity: 0.3;
   z-index: -1;
   border-radius: 1rem;
@@ -1740,8 +1727,8 @@ main {
 }
 
 .price-card .current-price img {
-  filter: brightness(0) saturate(100%) invert(28%) sepia(94%) saturate(748%) hue-rotate(184deg) brightness(92%) contrast(103%);
-
+  filter: brightness(0) saturate(100%) invert(28%) sepia(94%) saturate(748%)
+    hue-rotate(184deg) brightness(92%) contrast(103%);
 }
 
 .price-card::after {
@@ -2316,7 +2303,6 @@ footer {
     padding-bottom: 0;
   }
 }
-
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .feature-item:after {
