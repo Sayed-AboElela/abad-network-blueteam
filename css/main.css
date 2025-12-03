@@ -1270,7 +1270,7 @@ main {
   position: relative;
   width: 100%;
   max-width: 1277px;
-  margin: 0 auto;
+  margin: 10rem auto;
 }
 
 @media (max-width: 1199px) {
@@ -1329,6 +1329,10 @@ main {
 
   .timeline-container {
     flex-direction: column;
+  }
+
+  .benefits-container {
+    margin: 0 auto;
   }
 }
 
