@@ -327,6 +327,7 @@ body {
 }
 
 @keyframes gradientShift {
+
   0%,
   100% {
     background-position: 0% 50%;
@@ -472,6 +473,7 @@ body {
 }
 
 @keyframes twinkle {
+
   0%,
   100% {
     opacity: 0.25;
@@ -591,6 +593,7 @@ main {
 }
 
 @keyframes lightingPulse {
+
   0%,
   100% {
     opacity: 0.3;
@@ -612,6 +615,7 @@ main {
 }
 
 @keyframes floatSlow {
+
   0%,
   100% {
     transform: translate(-50%, -50%) translateY(0px);
@@ -623,6 +627,7 @@ main {
 }
 
 @keyframes floatMedium {
+
   0%,
   100% {
     transform: translate(-50%, -50%) translateY(0px);
@@ -721,6 +726,7 @@ main {
 }
 
 @media (max-width: 480px) {
+
   /* .main-img .img-holder {
     max-width: 280px;
   } */
@@ -881,6 +887,10 @@ main {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   align-self: center;
   background: linear-gradient(315deg, #0b4796 0%, #03203f 50%, #021124 100%);
+}
+
+.feature-item .item-img img {
+  width: 60%;
 }
 
 @media (max-width: 767px) {
@@ -1367,11 +1377,13 @@ main {
     padding: 1rem;
     max-width: 320px;
   }
+
   .hero-img {
     width: 140%;
     left: 0%;
     max-width: unset;
   }
+
   .hero-img-bubbles {
     left: 35%;
     width: 120%;
@@ -1738,8 +1750,7 @@ main {
 }
 
 .price-card .current-price img {
-  filter: brightness(0) saturate(100%) invert(28%) sepia(94%) saturate(748%)
-    hue-rotate(184deg) brightness(92%) contrast(103%);
+  filter: brightness(0) saturate(100%) invert(28%) sepia(94%) saturate(748%) hue-rotate(184deg) brightness(92%) contrast(103%);
 }
 
 .price-card::after {
